@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-intro {
+  display: flex;
+  margin: 2rem 17%;
+  padding: 1rem;
+}
+.main-intro .main-intro-parent {
+  display: flex;
+  justify-content: center;
+}
+.main-intro .main-intro-parent .intro-info-left .nav-bar {
+  display: flex;
+  justify-content: center;
+  margin-right: 4rem;
+  padding: 1rem;
+}
+.main-intro .main-intro-parent .intro-info-left .nav-bar .nav-bar-parent .nav-bar-childs {
+  padding: 0.3rem;
+  border-bottom: 1px solid rgb(235, 229, 229);
+}
+.main-intro .main-intro-parent .intro-info-left .nav-bar .nav-bar-parent .nav-bar-childs a {
+  color: #cda332;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+.main-intro .main-intro-parent .intro-info-left .nav-bar .nav-bar-parent .nav-bar-childs:last-child {
+  border-bottom: none;
+}
+.main-intro .main-intro-parent .intro-info-left .nav-bar .nav-bar-parent a:hover {
+  color: #0f0f0f;
+}
+.main-intro .main-intro-parent .intro-info-left .celebrating-image {
+  padding: 2rem;
+}
+.main-intro .main-intro-parent .intro-info-left .celebrating-image img {
+  width: 240px;
+}
+.main-intro .main-intro-parent .intro-info-right .info-text .info-text-parent .info-text-childs h2 {
+  margin: 1rem;
+}
+.main-intro .main-intro-parent .intro-info-right .info-text .info-text-parent .info-text-childs h3 {
+  padding: 1rem;
+}
+.main-intro .main-intro-parent .intro-info-right .info-text .info-text-parent .info-text-childs p {
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+.main-intro .main-intro-parent .intro-info-right .info-text .info-text-parent .info-text-childs p a {
+  text-decoration: none;
+  color: #cda332;
+}
+.main-intro .main-intro-parent .intro-info-right .info-text .info-text-parent .vision-text-childs {
+  padding: 1rem;
+}
+.main-intro .main-intro-parent .intro-info-right .info-text .info-text-parent .vision-text-childs h2 {
+  font-size: 1rem;
+  margin: 1rem;
+}
+.main-intro .main-intro-parent .intro-info-right .info-text .info-text-parent .vision-text-childs p {
+  font-size: 0.9rem;
+  margin: 1rem;
+}
+.main-intro .main-intro-parent .intro-info-right .info-text .info-text-parent .vision-text-childs:last-child {
+  margin-top: -2rem;
+}
+.main-intro .main-intro-parent .intro-info-right .info-text .info-text-parent .vision-text-childs .valuess ul {
+  margin-left: 4rem;
+}
+.main-intro .main-intro-parent .intro-info-right .info-text .info-text-parent .vision-text-childs .valuess ul li {
+  margin-left: 2rem;
+  font-size: 0.9rem;
+  margin: 1rem;
+}
+.main-intro .main-intro-parent .intro-info-right .info-text .info-text-parent .vision-text-childs .valuess ul li span {
+  color: #cda332;
+}
+.main-intro .main-intro-parent .intro-info-right .info-text .info-text-parent .omeir-text-childs {
+  padding: 1rem;
+}
+.main-intro .main-intro-parent .intro-info-right .info-text .info-text-parent .omeir-text-childs h2 {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+.main-intro .main-intro-parent .intro-info-right .info-text .info-text-parent .omeir-text-childs p {
+  font-size: 1.2rem;
+  margin: 1rem;
+}
+.main-intro .main-intro-parent .intro-info-right .info-text .info-text-parent .omeir-text-childs:last-child {
+  margin-top: -2rem;
+}
+.main-intro .main-intro-parent .intro-info-right .info-text .info-text-parent .omeir-text-childs .omeir ul {
+  margin-left: 4rem;
+}
+.main-intro .main-intro-parent .intro-info-right .info-text .info-text-parent .omeir-text-childs .omeir ul li {
+  margin-left: 2rem;
+  font-size: 0.9rem;
+  margin: 1rem;
+}
+.main-intro .main-intro-parent .intro-info-right .info-text .info-text-parent .omeir-text-childs .omeir ul li span {
+  color: #cda332;
+}
+.main-intro .media-text .media-text-parent {
+  display: flex;
+  padding: 1rem;
+}
+.main-intro .media-text .media-text-parent .media-text-childs .media-image img {
+  width: 360px;
+  height: 16rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.main-intro .media-text .media-text-parent .media-text-childs .media-image p {
+  background-color: blue;
+  width: 3rem;
+  text-align: center;
+  color: white;
+  font-weight: 3rem;
+  position: absolute;
+  margin-top: -15.2rem;
+}
+.main-intro .media-text .media-text-parent .media-image-text {
+  padding: 1rem;
+}
+.main-intro .media-text .media-text-parent .media-image-text h3 a {
+  text-decoration: none;
+  color: black;
+}
+.main-intro .media-text .media-text-parent .media-image-text h3 a:hover {
+  color: #cda332;
+}
+.main-intro .next-view {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  gap: 1rem;
+}
+.main-intro .next-view button {
+  color: blue;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  background: none;
+  border: 2px solid blue;
+}
+.main-intro .next-view button:hover {
+  background-color: blue;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
